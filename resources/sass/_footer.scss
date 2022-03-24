@@ -1,0 +1,61 @@
+.whole-footer{
+    height: 400px;
+}
+
+.main-footer{
+    background-image: url('../images/footer-bg.jpg');
+    height: 70%;
+    color: lightgray;
+    overflow: hidden;
+}
+
+.side-footer{
+    background: #303030;
+    height: 150px;
+    
+}
+
+.row-mine{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+
+
+.align-center{
+    align-self:center;
+    
+}
+
+.txt-white{
+    color: white;
+}
+
+.button{
+    border: 5px solid dodgerblue;
+    line-height: 40px;
+    color: white;
+    
+}
+
+.clr-db{
+    color: dodgerblue;
+}
+
+.va-middle{
+    vertical-align: middle;
+    
+}
+
+.space-between-mine{
+    justify-content: space-between;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.side-footer img{
+    margin: 0 10px;
+}

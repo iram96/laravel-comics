@@ -1,0 +1,31 @@
+//
+@import 'main';
+@import 'comics';
+@import 'comic';
+@import 'header';
+@import 'footer';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    body{
+      .d-ib{
+          display: inline-block;
+      }
+      margin: 0 auto;
+      .container{
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    
+     
+    }
+  }
+  
+  .clearfix:after{                         
+    display: table;
+    content: "";
+    clear: both;
+  }
+  

@@ -1,0 +1,49 @@
+
+header{
+    max-height: 150px;
+    width: 100%;
+    .top-header{
+        background-color: dodgerblue;
+        color: white;
+        text-align: end;
+    }
+    .center-mine{
+        justify-content: center;
+        &.row-mine{
+            display: flex;
+            flex-direction: row;
+           
+        }
+        .dc-logo{
+            width: 100px;
+        }
+    }
+}
+
+
+
+.hm-col{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.list-cl{
+    list-style-type: none;
+    margin: 0
+}
+
+header .list-cl li{
+    display: inline-block;
+    margin: 10px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0
+}
+.no-txtdec{
+    text-decoration: none;
+    color: black
+}
+
+
+

@@ -1,0 +1,142 @@
+main {
+  background-color: grey;
+  min-height: 300px;
+}
+
+.comics {
+  padding: 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.comics li {
+  display: flex;
+  flex-basis: 16.6666666667%;
+  justify-content: center;
+}
+.comics li .card img {
+  margin: 0 auto;
+}
+.comics li .card h4 {
+  max-width: 190px;
+}
+
+header {
+  max-height: 150px;
+  width: 100%;
+}
+header .top-header {
+  background-color: dodgerblue;
+  color: white;
+  text-align: end;
+}
+header .center-mine {
+  justify-content: center;
+}
+header .center-mine.row-mine {
+  display: flex;
+  flex-direction: row;
+}
+header .center-mine .dc-logo {
+  width: 100px;
+}
+
+.hm-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-cl {
+  list-style-type: none;
+  margin: 0;
+}
+
+header .list-cl li {
+  display: inline-block;
+  margin: 10px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.no-txtdec {
+  text-decoration: none;
+  color: black;
+}
+
+.whole-footer {
+  height: 400px;
+}
+
+.main-footer {
+  background-image: url("../images/footer-bg.jpg");
+  height: 70%;
+  color: lightgray;
+  overflow: hidden;
+}
+
+.side-footer {
+  background: #303030;
+  height: 150px;
+}
+
+.row-mine {
+  display: flex;
+  flex-direction: row;
+}
+
+.align-center {
+  align-self: center;
+}
+
+.txt-white {
+  color: white;
+}
+
+.button {
+  border: 5px solid dodgerblue;
+  line-height: 40px;
+  color: white;
+}
+
+.clr-db {
+  color: dodgerblue;
+}
+
+.va-middle {
+  vertical-align: middle;
+}
+
+.space-between-mine {
+  justify-content: space-between;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.side-footer img {
+  margin: 0 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* body {
+  margin: 0 auto;
+}
+* body .d-ib {
+  display: inline-block;
+}
+* body .container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.clearfix:after {
+  display: table;
+  content: "";
+  clear: both;
+}
